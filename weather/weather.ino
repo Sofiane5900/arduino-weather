@@ -22,9 +22,9 @@ void loop() {
     Serial.println("Erreur.");
   } else {
     Serial.print("Humidité: ");
-    Serial.print(h);
+    Serial.print(humidity);
     Serial.print(" % | Temperature: ");
-    Serial.print(t);
+    Serial.print(humidity);
     Serial.println(" °C");
   }
 }
